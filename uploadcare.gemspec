@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Uploadcare::VERSION
   s.authors     = ["Geoffrey Byers"]
   s.email       = ["geoff@seaandco.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/gdcbyers/uploadcare"
   s.summary     = "Uploadcare.com API Wrapper"
   s.description = "Allow easy access to the Uploadcare.com API"
 
@@ -19,8 +19,7 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_development_dependency "rake"
-
-  # specify any dependencies here; for example:
-  # s.add_development_dependency "rspec"
-  # s.add_runtime_dependency "rest-client"
+  s.add_runtime_dependency "httparty"
+  s.add_runtime_dependency "openssl"
+  s.add_runtime_dependency "json"
 end
