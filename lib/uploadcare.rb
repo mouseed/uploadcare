@@ -1,8 +1,4 @@
-require "uploadcare/version"
-
-# module Uploadcare
-#   # Your code goes here...
-# end
+require 'uploadcare/version'
 require 'httparty'
 require 'openssl'
 require 'json'
@@ -40,3 +36,5 @@ class Uploadcare
     file
   end
 end
+
+require 'uploadcare/file'
