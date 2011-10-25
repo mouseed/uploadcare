@@ -1,7 +1,7 @@
 module Uploadcare
   def self.new(public_key, private_key)
-    Uploadcare::Uploadcare.new(public_key, private_key)
-  end  
+    Uploadcare.new(public_key, private_key)
+  end
 end
 
 require 'uploadcare/uploadcare'
